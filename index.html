@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Use correct character set. -->
+        <meta charset="utf-8">
+        <!-- Tell IE to use the latest, best version. -->
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <!-- Make the app on mobile take up the full browser screen and disable user scaling. -->
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+        <title>Vehicles</title>
+        <!-- The Cesium library. -->
+        <!-- <script src="https://cesium.com/downloads/cesiumjs/releases/1.70/Build/Cesium/Cesium.js"></script>
+        <link href="https://cesium.com/downloads/cesiumjs/releases/1.70/Build/Cesium/Widgets/widgets.css" rel="stylesheet"> -->
+        <script src="/Cesium1.70/Cesium.js"></script>
+        <link href="/Cesium1.70/Widgets/widgets.css" rel="stylesheet">
+        <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    </head>
+    <body>
+        <!-- A container for the Cesium Viewer to live in. -->
+        <div id="cesiumContainer"></div>
+
+        <!-- Our app code. -->
+        <script src="./models.js"></script>
+        <script src="./roadNetwork.js"></script>
+        <script src="./road.js"></script>
+        <script src="./IRoad.js"></script>
+        <script src="./PRoad.js"></script>
+        <script src="./ORoad.js"></script>
+        <script src="./vehicle.js"></script>
+        <script src="./main.js"></script>
+
+    </body>
+</html>
